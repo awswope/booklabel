@@ -5,3 +5,6 @@ block body
     | Hello #{user.username}!
   else
     | Hello world!
+  div(ng-controller = 'QueryCtrl as ctrl')
+    p {{ctrl.greeting}}
+    
